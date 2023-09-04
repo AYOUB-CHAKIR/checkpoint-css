@@ -1,0 +1,48 @@
+
+        html,body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        ul li {
+            
+            display: inline-block;
+            width: 9%;
+            vertical-align: middle;
+            
+           
+        }
+        ul li:nth-child(1){
+            width: 50%!important;
+                }
+        ul {
+            background-color: rgb(33, 69, 178);
+        } 
+        ul li a {
+            color: white;
+        }
+        /*div img {
+        
+            background-repeat: no-repeat;
+            width: 1350px;
+            height: 500px;
+        }*/
+        .container {
+            background-image:url(assets/img/trekking\ \(1\).jpg);
+           height: 500px;
+                       
+        }
+
+
+        div p {
+            color: white;
+            font-weight: bold;
+            font-size: larger;
+        }
+        div button{
+            padding: 15px 80px;
+        }
+                
+
+        
