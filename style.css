@@ -4,45 +4,57 @@
             padding: 0px;
         }
 
-
         ul li {
             
             display: inline-block;
             width: 9%;
             vertical-align: middle;
             
-           
         }
         ul li:nth-child(1){
             width: 50%!important;
-                }
-        ul {
-            background-color: rgb(33, 69, 178);
-        } 
-        ul li a {
-            color: white;
         }
-        /*div img {
         
-            background-repeat: no-repeat;
-            width: 1350px;
-            height: 500px;
-        }*/
-        .container {
-            background-image:url(assets/img/trekking\ \(1\).jpg);
-           height: 500px;
-                       
-        }
-
-
-        div p {
+        ul li a {
             color: white;
             font-weight: bold;
             font-size: larger;
         }
-        div button{
-            padding: 15px 80px;
-        }
-                
 
-        
+        div p {
+            color: black;
+            font-weight: bold;
+            font-size:large ;
+        }
+
+        #btm {
+            padding: 15px 50px;
+        }
+
+        nav {
+            background-image: url(assets/img/trekking\ \(1\).jpg);
+            height: 600px;
+        }
+
+        .flex {
+            
+            display: flex;
+            vertical-align: middle;
+            border: 2px solid;
+            background-color: hsl(190, 100%, 91%);
+            border-radius: 20px;
+            
+        }
+        .flex :nth-child(2){
+            width: 730px;
+            vertical-align: middle;
+            margin: 10px;
+            margin-right: 20px;
+        }
+    p>button{
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+         
+    }
+
