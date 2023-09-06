@@ -57,5 +57,13 @@
         border-radius: 20px;
          
     }
+    section>a {
+        padding: 40px;
+        font-size: 20pt;
+
+    }
+    section{
+        margin-top: 20px;
+    }
     
 
