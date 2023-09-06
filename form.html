@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation</title>
+
+    <style>
+        html,body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul li {
+            
+            display: inline-block;
+            width: 9%;
+            vertical-align: middle;
+            
+        }
+        ul li:nth-child(1){
+            width: 50%!important;
+        }
+        
+        ul li a {
+            color: white;
+            font-weight: bold;
+            font-size: larger;
+        }
+
+
+        nav {
+            background-image: url(assets/img/sahara.jpg);
+            height: 600px;
+        }
+        div{
+            width: 400px;
+            background-color: rgba(240, 248, 255, 0.648);
+        }
+      
+    </style>
+</head>
+<body>
+    <nav>
+        <ul width="100%">
+            <li><img src="assets/img/trek-hike-logo-for-outdoor-adventure-compan-design-template-ecc75b7c78e887756d2953204ba0c394_screen.jpg" width="15%" style="padding-top:5px;"> </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About-us</a></li>
+            <li><a href="#">Contact</a></li>
+        
+        </ul>
+        <br><br>
+    <center>
+    <div>
+        <h1>Réservation</h1>
+        <form action="traitement_reservation.php" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br><br>
+    
+            <label for="email">Adresse e-mail :</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="date_arrivee">Date d'arrivée :</label>
+            <input type="date" id="date_arrivee" name="date_arrivee" required><br><br>
+    
+            <label for="date_depart">Date de départ :</label>
+            <input type="date" id="date_depart" name="date_depart" required><br><br>
+    
+            <label for="commentaires">Commentaires :</label><br>
+            <textarea id="commentaires" name="commentaires" rows="4" cols="50"></textarea><br><br>
+    
+            <input type="submit" value="Réserver">
+        </form>
+    </div>
+    </center>
+
+    </nav>
+
+</body>
+</html>
